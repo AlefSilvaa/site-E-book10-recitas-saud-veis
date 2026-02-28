@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-book 10 Receitas Saudáveis</title>
+    <link rel="stylesheet" href="ebook.css">
+</head>
+<body>
+    <header>
+        <h1>10 Receitas Saudáveis</h1>
+        <p>Aprenda a preparar receitas deliciosas e nutritivas!</p>
+    </header>
+
+    <section class="ebook">
+        <img src="1_23bf5c984f7c4d97846f86d7d2586b02.png" alt="Capa do E-book">
+        <h2>Compre agora por apenas R$19,90</h2>
+       <a href="https://pay.kiwify.com.br/H8mQdek" class="buy-button">Comprar</a>
+    </section>
+
+    <!-- Modal de pagamento -->
+    <div id="paymentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Pagamento</h2>
+            <p>Insira seus dados para comprar o e-book:</p>
+            <form id="paymentForm">
+                <input type="text" id="name" placeholder="Nome completo" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="card" placeholder="Número do cartão" required>
+                <button type="submit">Finalizar Compra</button>
+            </form>
+            <p id="successMessage" class="success"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Receitas Saudáveis</p>
+    </footer>
+
+    <script src="ebook.js"></script>
+</body>
+</html>
